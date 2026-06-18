@@ -2,13 +2,13 @@
 
 A retail store specializing in toys and gadgets, offering a fun and exciting shopping experience for customers interested in playful and innovative products. The store combines classic toys with modern gadgets, appealing to a wide range of customers who enjoy creative and entertaining items.
 
-Source: https://toy-store-16d6f7b1.zappy5.app
+Source: https://example.com
 
 ---
 
 ## גלו עולם של צעצועים וגאדג&#39;טים — Toy Store
 
-URL: https://toy-store-16d6f7b1.zappy5.app
+URL: https://example.com
 Description: מחפשים חנות צעצועים קרובה אליכם? בואו ל-Toy Store לחוויית קנייה מהנה עם צעצועים קלאסיים וגאדג&#39;טים חדשניים. היכנסו עכשיו וגלו את האוצר הבא שלכם!
 
 גלו עולם של צעצועים וגאדג'טים — Toy Store
@@ -693,7 +693,7 @@ SHOP BY CATEGORY
 
 ## מדיניות פרטיות
 
-URL: https://toy-store-16d6f7b1.zappy5.app/privacy
+URL: https://example.com/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -963,7 +963,7 @@ Toy Store ("החברה", "אנו", "שלנו") מחויבת להגן על פרט
 
 ## הצהרת נגישות
 
-URL: https://toy-store-16d6f7b1.zappy5.app/accessibility
+URL: https://example.com/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -1242,7 +1242,7 @@ Toy Store מחויבת להנגיש את השירותים לכלל הציבור.
 
 ## תנאי שימוש
 
-URL: https://toy-store-16d6f7b1.zappy5.app/terms
+URL: https://example.com/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
