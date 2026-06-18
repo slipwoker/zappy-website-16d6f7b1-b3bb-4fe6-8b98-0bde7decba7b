@@ -5038,6 +5038,23 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 ._access-icon {
   display: flex !important;
 }
+
+.index-products-section {
+  background: linear-gradient(180deg, var(--background, var(--background-color)) 0%, #ede9fe 100%);
+  padding: var(--spacing-section, 100px) 24px;
+  text-align: center;
+}
+
+html[dir="rtl"] .index-product-card-image .badge-new {
+  left: auto;
+  right: 12px;
+}
+
+@media (max-width: 600px) {
+.index-products-section {
+  padding: var(--spacing-section-mobile, 60px) 16px;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
