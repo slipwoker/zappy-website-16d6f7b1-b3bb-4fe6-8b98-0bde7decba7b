@@ -1,0 +1,65 @@
+# Toy Store — Generative Engine Optimization Map
+
+> A retail store specializing in toys and gadgets, offering a fun and exciting shopping experience for customers interested in playful and innovative products. The store combines classic toys with modern gadgets, appealing to a wide range of customers who enjoy creative and entertaining items.
+
+---
+
+## Pages
+
+### דף הבית
+https://toy-store-16d6f7b1.zappy5.app
+מחפשים חנות צעצועים קרובה אליכם? בואו ל-Toy Store לחוויית קנייה מהנה עם צעצועים קלאסיים וגאדג&#39;טים חדשניים. היכנסו עכשיו וגלו את האוצר הבא שלכם!
+
+## Legal & Policy
+
+### Privacy Policy
+https://toy-store-16d6f7b1.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://toy-store-16d6f7b1.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://toy-store-16d6f7b1.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://toy-store-16d6f7b1.zappy5.app
+- Endpoint: https://toy-store-16d6f7b1.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox, required)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Toy Store
+A retail store specializing in toys and gadgets, offering a fun and exciting shopping experience for customers interested in playful and innovative products. The store combines classic toys with modern gadgets, appealing to a wide range of customers who enjoy creative and entertaining items.
+
+## Target Audience
+- הורים לילדים צעירים
+- חובבי טכנולוגיה
+- רוכשי מתנות
+
+## Industry
+Toys & Gadgets Retail
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://toy-store-16d6f7b1.zappy5.app/sitemap.xml
+- Robots: https://toy-store-16d6f7b1.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://toy-store-16d6f7b1.zappy5.app/llms-full.txt
