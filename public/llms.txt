@@ -10,6 +10,10 @@
 https://example.com
 מחפשים חנות צעצועים קרובה אליכם? בואו ל-Toy Store לחוויית קנייה מהנה עם צעצועים קלאסיים וגאדג&#39;טים חדשניים. היכנסו עכשיו וגלו את האוצר הבא שלכם!
 
+### Thank You | Toy Store
+https://example.com/thank-you
+Toy Store - Thank You | Toy Store
+
 ## Legal & Policy
 
 ### Privacy Policy
@@ -36,10 +40,10 @@ Information about WCAG compliance and accessibility features.
 - Method: POST
 - Content-Type: application/json
 - Fields:
-  - `name` (text, required)
-  - `email` (email, required)
+  - `name` (text)
+  - `email` (email)
   - `message` (textarea)
-  - `privacy_consent` (checkbox, required)
+  - `privacy_consent` (checkbox)
 
 ---
 
