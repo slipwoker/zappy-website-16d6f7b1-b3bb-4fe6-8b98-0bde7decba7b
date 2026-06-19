@@ -298,10 +298,10 @@
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600;700&amp;family=Pacifico:wght@400&amp;display=swap">
-  <script defer data-zappy-gsap="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <script defer data-zappy-gsap="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script defer="" data-zappy-gsap="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script defer="" data-zappy-gsap="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <style>
     .skip-link { position: absolute; top: 0; left: 0; transform: translateY(-200%); padding: 12px 18px; background: var(--bg-dark, #1a1a1a); color: var(--text-light, #fff); font-weight: 600; border-radius: 0 0 8px 0; z-index: 10000; }
     .skip-link:focus { transform: none; outline: 2px solid var(--ring, #fff); outline-offset: 2px; }
@@ -418,15 +418,15 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="+972543951940" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
   <div class="nav-container">
@@ -863,7 +863,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '+972543951940';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -882,7 +882,7 @@
   <main id="main">
     <section data-band-index="0" id="hero" class="index-hero-section editorial-section" data-layout-spec="דף הבית-hero" data-hero-type="fullscreen-scrim">
   <div class="editorial-grid">
-    <div class="editorial-text" data-reveal>
+    <div class="editorial-text" data-reveal="">
       <p class="eyebrow">ברוכים הבאים לעולם של כיף</p>
       <h1 class="display-xl">
         <span class="headline-dark">שחקו. דמיינו.</span>
@@ -895,13 +895,13 @@
         <a href="#" class="btn-primary">
           <span>קנו עכשיו</span>
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
-            <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </a>
         <a href="#" class="btn-secondary-outline">
           <span>חדשים הגיעו</span>
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
-            <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </a>
       </div>
@@ -909,8 +909,8 @@
         <div class="trust-badge-item">
           <div class="trust-badge-icon">
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
-              <path d="M10 2C10 2 14 4 14 10L10 14L6 10C6 4 10 2 10 2Z" stroke="#5b21b6" stroke-width="1.5" fill="none"/>
-              <circle cx="10" cy="9" r="2" fill="#5b21b6"/>
+              <path d="M10 2C10 2 14 4 14 10L10 14L6 10C6 4 10 2 10 2Z" stroke="#5b21b6" stroke-width="1.5" fill="none"></path>
+              <circle cx="10" cy="9" r="2" fill="#5b21b6"></circle>
             </svg>
           </div>
           <span class="trust-badge-text">משלוח מהיר וחינמי</span>
@@ -918,7 +918,7 @@
         <div class="trust-badge-item">
           <div class="trust-badge-icon">
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
-              <path d="M10 2L4 5V10C4 14 7 17 10 18C13 17 16 14 16 10V5L10 2Z" stroke="#3b82f6" stroke-width="1.5" fill="none"/>
+              <path d="M10 2L4 5V10C4 14 7 17 10 18C13 17 16 14 16 10V5L10 2Z" stroke="#3b82f6" stroke-width="1.5" fill="none"></path>
             </svg>
           </div>
           <span class="trust-badge-text">תשלומים מאובטחים</span>
@@ -926,9 +926,9 @@
         <div class="trust-badge-item">
           <div class="trust-badge-icon">
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
-              <rect x="3" y="8" width="14" height="10" rx="1" stroke="#f97316" stroke-width="1.5" fill="none"/>
-              <path d="M3 8H17V11H3V8Z" stroke="#f97316" stroke-width="1.5" fill="none"/>
-              <path d="M10 8V18M10 8C10 8 7 6 7 4C7 3 8 2 10 2C12 2 13 3 13 4C13 6 10 8 10 8Z" stroke="#f97316" stroke-width="1.5" fill="none"/>
+              <rect x="3" y="8" width="14" height="10" rx="1" stroke="#f97316" stroke-width="1.5" fill="none"></rect>
+              <path d="M3 8H17V11H3V8Z" stroke="#f97316" stroke-width="1.5" fill="none"></path>
+              <path d="M10 8V18M10 8C10 8 7 6 7 4C7 3 8 2 10 2C12 2 13 3 13 4C13 6 10 8 10 8Z" stroke="#f97316" stroke-width="1.5" fill="none"></path>
             </svg>
           </div>
           <span class="trust-badge-text">מתנות מושלמות לכל גיל</span>
@@ -945,17 +945,17 @@
 
 <section data-band-index="1" id="features" class="index-features-section hscroll-section" data-layout-spec="דף הבית-features">
       <div class="section-container">
-        <header class="section-header" data-reveal>
+        <header class="section-header" data-reveal="">
           <p class="eyebrow">
             <span class="eyebrow-icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M12 2L13.5 8.5L20 10L13.5 11.5L12 18L10.5 11.5L4 10L10.5 8.5L12 2Z" fill="currentColor"/></svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg"><path d="M12 2L13.5 8.5L20 10L13.5 11.5L12 18L10.5 11.5L4 10L10.5 8.5L12 2Z" fill="currentColor"></path></svg>
             </span>
             SHOP BY CATEGORY
           </p>
           <h2>הקטגוריות <span class="font-accent">האהובות</span> עליכם</h2>
         </header>
 
-        <div class="hscroll-track" data-reveal-stagger>
+        <div class="hscroll-track" data-reveal-stagger="">
           <!-- Card 1: Toys -->
           <article class="hscroll-card category-card">
             <div class="card-circle circle-beige">
@@ -1010,7 +1010,7 @@
       <span class="eyebrow">הקולקציות שלנו</span>
       <h2>עולמות של <span class="font-accent">Worlds</span> קסם ומשחק</h2>
     </div>
-    <div class="cases-grid" data-reveal-stagger>
+    <div class="cases-grid" data-reveal-stagger="">
       <a class="case-card" href="#">
         <figure>
           <img loading="lazy" decoding="async" data-placeholder="index-portfolio-gallery-tile-1" data-context="Sleek silver and orange space shuttle toy flying through a deep blue starfield with planets in the background, 3D rendered illustration. Composition: 3/4 angle, dramatic low angle looking up at the spacecraft. Framing: Full-bleed within card, subject centered with cosmic background. Background: Deep blue space scene with stars and planets. Treatment: full-bleed background" data-treatment="full-bleed background" data-dominant-color="#1e3a8a" data-aspect-ratio="4:3" class="cutout" alt="חללית צעצוע כסופה וכתומה בחלל" width="800" height="600" src="/assets/site-index-portfolio-gallery-tile-1.webp">
@@ -1020,7 +1020,7 @@
           <h3>צעצועי חלל ומשימות</h3>
         </div>
         <div class="case-cta btn-icon-circle-orange">
-          <svg data-element-type="icon" data-icon-type="svg" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
         </div>
       </a>
       <a class="case-card" href="#">
@@ -1032,7 +1032,7 @@
           <h3>מכוניות שלט, רחפנים ועוד</h3>
         </div>
         <div class="case-cta btn-icon-circle-purple">
-          <svg data-element-type="icon" data-icon-type="svg" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
         </div>
       </a>
       <a class="case-card" href="#">
@@ -1044,7 +1044,7 @@
           <h3>הגאדג׳טים הכי חדשים</h3>
         </div>
         <div class="case-cta btn-icon-circle-purple">
-          <svg data-element-type="icon" data-icon-type="svg" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
         </div>
       </a>
       <a class="case-card" href="#">
@@ -1056,7 +1056,7 @@
           <h3>בנה, צור ודמיין</h3>
         </div>
         <div class="case-cta btn-icon-circle-orange">
-          <svg data-element-type="icon" data-icon-type="svg" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
         </div>
       </a>
     </div>
@@ -1065,13 +1065,13 @@
 
 <section data-band-index="3" id="products" class="index-products-section" data-layout-spec="דף הבית-products">
   <div class="index-products-container">
-    <header class="index-products-header" data-reveal>
+    <header class="index-products-header" data-reveal="">
       <p class="eyebrow">הגענו חדש</p>
       <h2>החדשים <span class="font-accent">Greatest</span> אצלנו</h2>
       <p class="index-products-subtitle">הקולקציה הכי טרייה ומרגשת בחנות — צעצועים וגאדג'טים שילדים (וגם מבוגרים) פשוט חייבים. מל"טים, רובוטים, מקרני כוכבים ומשאלות מפלצת — הכל כאן.</p>
       <a href="/products" class="btn-secondary-outline">לכל המוצרים</a>
     </header>
-    <div class="index-products-grid" data-reveal-stagger>
+    <div class="index-products-grid" data-reveal-stagger="">
       <div class="index-product-card">
         <div class="index-product-card-image">
           <span class="badge-new">חדש</span>
@@ -1144,7 +1144,7 @@
   </div>
   <div class="index-products-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,40 Q50,35 100,42 T200,38 Q250,42 300,35 T400,40 Q450,38 500,42 T600,35 Q650,40 700,38 T800,42 Q850,35 900,40 T1000,38 Q1050,42 1100,35 T1200,40 L1200,80 Z" fill="#3b0764"/>
+      <path d="M0,80 L0,40 Q50,35 100,42 T200,38 Q250,42 300,35 T400,40 Q450,38 500,42 T600,35 Q650,40 700,38 T800,42 Q850,35 900,40 T1000,38 Q1050,42 1100,35 T1200,40 L1200,80 Z" fill="#3b0764"></path>
     </svg>
   </div>
 </section>
@@ -1155,7 +1155,7 @@
       <h2 class="index-testimonials-section__title">מה אומרים עלינו</h2>
       <p class="index-testimonials-section__subtitle">הלקוחות שלנו משתפים בחוויות הקסומות שילדיהם חוו עם הצעצועים והגאדג׳טים מהחנות</p>
     </header>
-    <div class="testimonials-grid" data-reveal-stagger>
+    <div class="testimonials-grid" data-reveal-stagger="">
       <figure class="testimonial-card">
         <div class="testimonial-card__stars" aria-label="5 כוכבים">
           <i class="fas fa-star"></i>
@@ -1224,7 +1224,7 @@
 </section>
 
 <section data-band-index="5" id="stats" class="index-stats-section statband-section" data-layout-spec="דף הבית-stats">
-  <div class="statband-container" data-reveal>
+  <div class="statband-container" data-reveal="">
     <p class="statband-line">
       <span class="statband-number" data-count-up="10000" data-count-suffix="+">0</span>
       <span class="statband-label">לקוחות מרוצים</span>
@@ -1260,11 +1260,11 @@
         <div class="faq-answer">
           <div class="faq-answer__illustration">
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="24" cy="24" r="20" fill="var(--primary-50)"/>
-              <path d="M16 20C16 20 18 14 24 14C30 14 32 20 32 20" stroke="var(--primary)" stroke-width="2.5" stroke-linecap="round"/>
-              <circle cx="18" cy="28" r="3" fill="var(--accent)"/>
-              <circle cx="30" cy="28" r="3" fill="var(--accent)"/>
-              <path d="M20 34C20 34 22 38 24 38C26 38 28 34 28 34" stroke="var(--primary)" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="24" cy="24" r="20" fill="var(--primary-50)"></circle>
+              <path d="M16 20C16 20 18 14 24 14C30 14 32 20 32 20" stroke="var(--primary)" stroke-width="2.5" stroke-linecap="round"></path>
+              <circle cx="18" cy="28" r="3" fill="var(--accent)"></circle>
+              <circle cx="30" cy="28" r="3" fill="var(--accent)"></circle>
+              <path d="M20 34C20 34 22 38 24 38C26 38 28 34 28 34" stroke="var(--primary)" stroke-width="2.5" stroke-linecap="round"></path>
             </svg>
           </div>
           <p>הצעצועים שלנו מיועדים לכל המשפחה! אנחנו מציעים מגוון רחב שמתחיל מגיל 0+ עם צעצועי התפתחות רכים ובטוחים, דרך ערכות יצירה ומשחקי קופסה לגילאי 3-8, ועד גאדג'טים וערכות מדע מתקדמות לגילאי 8-14. כל מוצר מסומן בטווח הגילאים המומלץ כדי שתוכלו לבחור בקלות.</p>
@@ -1278,10 +1278,10 @@
         <div class="faq-answer">
           <div class="faq-answer__illustration">
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="10" y="18" width="28" height="22" rx="4" fill="var(--primary-50)" stroke="var(--primary)" stroke-width="2"/>
-              <path d="M24 10L30 18H18L24 10Z" fill="var(--accent)"/>
-              <line x1="24" y1="18" x2="24" y2="40" stroke="var(--primary)" stroke-width="2"/>
-              <line x1="10" y1="28" x2="38" y2="28" stroke="var(--primary)" stroke-width="2"/>
+              <rect x="10" y="18" width="28" height="22" rx="4" fill="var(--primary-50)" stroke="var(--primary)" stroke-width="2"></rect>
+              <path d="M24 10L30 18H18L24 10Z" fill="var(--accent)"></path>
+              <line x1="24" y1="18" x2="24" y2="40" stroke="var(--primary)" stroke-width="2"></line>
+              <line x1="10" y1="28" x2="38" y2="28" stroke="var(--primary)" stroke-width="2"></line>
             </svg>
           </div>
           <p>כן, בשמחה! אנחנו מציעים שירות אריזת מתנה חינם ברכישה מעל 150 ₪. תוכלו לבחור מבין מגוון ניירות עטיפה צבעוניים, סרטים וכרטיסי ברכה אישיים. פשוט סמנו את האפשרות בקופה או בקשו מהצוות בחנות.</p>
@@ -1295,9 +1295,9 @@
         <div class="faq-answer">
           <div class="faq-answer__illustration">
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M14 14L34 34M34 14L14 34" stroke="var(--primary)" stroke-width="2.5" stroke-linecap="round"/>
-              <rect x="8" y="8" width="32" height="32" rx="8" fill="var(--primary-50)"/>
-              <path d="M14 14L34 34M34 14L14 34" stroke="var(--primary)" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M14 14L34 34M34 14L14 34" stroke="var(--primary)" stroke-width="2.5" stroke-linecap="round"></path>
+              <rect x="8" y="8" width="32" height="32" rx="8" fill="var(--primary-50)"></rect>
+              <path d="M14 14L34 34M34 14L14 34" stroke="var(--primary)" stroke-width="2.5" stroke-linecap="round"></path>
             </svg>
           </div>
           <p>אנחנו מאמינים בחוויית קנייה מהנה. ניתן להחזיר או להחליף כל מוצר תוך 30 יום מיום הרכישה, כל עוד הוא באריזתו המקורית ולא נעשה בו שימוש. החזר כספי יינתן באמצעי התשלום המקורי. מוצרים בהתאמה אישית אינם ניתנים להחזרה.</p>
@@ -1311,10 +1311,10 @@
         <div class="faq-answer">
           <div class="faq-answer__illustration">
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="8" y="18" width="32" height="18" rx="4" fill="var(--primary-50)" stroke="var(--primary)" stroke-width="2"/>
-              <circle cx="16" cy="36" r="3" fill="var(--accent)"/>
-              <circle cx="32" cy="36" r="3" fill="var(--accent)"/>
-              <path d="M12 24H20L24 18H36L32 24H40V34H36" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <rect x="8" y="18" width="32" height="18" rx="4" fill="var(--primary-50)" stroke="var(--primary)" stroke-width="2"></rect>
+              <circle cx="16" cy="36" r="3" fill="var(--accent)"></circle>
+              <circle cx="32" cy="36" r="3" fill="var(--accent)"></circle>
+              <path d="M12 24H20L24 18H36L32 24H40V34H36" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
           </div>
           <p>אנו שולחים לכל חלקי הארץ! משלוח סטנדרטי מגיע תוך 3-5 ימי עסקים. משלוח מהיר מגיע תוך 1-2 ימי עסקים. משלוח חינם בהזמנות מעל 250 ₪. כל החבילות נשלחות עם מספר מעקב לנוחותכם.</p>
@@ -1328,8 +1328,8 @@
         <div class="faq-answer">
           <div class="faq-answer__illustration">
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M24 6L28 14L36 16L30 22L32 30L24 26L16 30L18 22L12 16L20 14L24 6Z" fill="var(--accent)" stroke="var(--primary)" stroke-width="1.5" stroke-linejoin="round"/>
-              <path d="M24 6V26" stroke="var(--primary)" stroke-width="1.5"/>
+              <path d="M24 6L28 14L36 16L30 22L32 30L24 26L16 30L18 22L12 16L20 14L24 6Z" fill="var(--accent)" stroke="var(--primary)" stroke-width="1.5" stroke-linejoin="round"></path>
+              <path d="M24 6V26" stroke="var(--primary)" stroke-width="1.5"></path>
             </svg>
           </div>
           <p>בטיחות היא בראש סדר העדיפויות שלנו. כל הצעצועים והגאדג'טים שלנו עומדים בתקני בטיחות מחמירים בישראל ובעולם, כולל תו תקן ישראלי, CE אירופאי ו-ASTM אמריקאי. אנו עובדים רק עם ספקים מורשים ומבצעים בדיקות איכות קפדניות.</p>
@@ -1343,10 +1343,10 @@
         <div class="faq-answer">
           <div class="faq-answer__illustration">
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="24" cy="24" r="18" fill="var(--primary-50)" stroke="var(--primary)" stroke-width="2"/>
-              <circle cx="18" cy="20" r="4" fill="var(--accent)"/>
-              <circle cx="30" cy="20" r="4" fill="var(--accent)"/>
-              <path d="M12 36C12 30 16 26 24 26C32 26 36 30 36 36" stroke="var(--primary)" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="24" cy="24" r="18" fill="var(--primary-50)" stroke="var(--primary)" stroke-width="2"></circle>
+              <circle cx="18" cy="20" r="4" fill="var(--accent)"></circle>
+              <circle cx="30" cy="20" r="4" fill="var(--accent)"></circle>
+              <path d="M12 36C12 30 16 26 24 26C32 26 36 30 36 36" stroke="var(--primary)" stroke-width="2.5" stroke-linecap="round"></path>
             </svg>
           </div>
           <p>כן! מועדון הלקוחות "חברים בצעצוע" שלנו מציע הטבות בלעדיות: 10% הנחה על הרכישה הראשונה, צבירת נקודות על כל קנייה, מבצעים מיוחדים לימי הולדת, והזמנה מוקדמת למוצרים חדשים. ההצטרפות חינם וללא התחייבות.</p>
@@ -1356,7 +1356,7 @@
   </div>
 </section>
 
-<section data-band-index="7" id="cta" class="index-cta-section" data-layout-spec="דף הבית-cta" data-reveal>
+<section data-band-index="7" id="cta" class="index-cta-section" data-layout-spec="דף הבית-cta" data-reveal="">
   <div class="index-cta-section__band cta-band">
     <h2 class="index-cta-section__headline">מוכנים להפוך כל יום להרפתקה? הצטרפו אלינו!</h2>
     <p class="index-cta-section__subheadline">השאירו פרטים ונחזור אליכם עם כל מה שצריך לדעת על המבצעים, הסדנאות והמוצרים החדשים ביותר בחנות.</p>
@@ -1365,11 +1365,11 @@
       <div class="index-cta-section__form-grid">
         <div class="index-cta-section__field">
           <label for="index-cta-name" class="index-cta-section__label">שם מלא</label>
-          <input type="text" id="index-cta-name" name="name" class="index-cta-section__input" placeholder="ישראל ישראלי" required>
+          <input type="text" id="index-cta-name" name="name" class="index-cta-section__input" placeholder="ישראל ישראלי" required="">
         </div>
         <div class="index-cta-section__field">
           <label for="index-cta-email" class="index-cta-section__label">דוא״ל</label>
-          <input type="email" id="index-cta-email" name="email" class="index-cta-section__input" placeholder="israel@example.com" required>
+          <input type="email" id="index-cta-email" name="email" class="index-cta-section__input" placeholder="israel@example.com" required="">
         </div>
         <div class="index-cta-section__field index-cta-section__field--full">
           <label for="index-cta-message" class="index-cta-section__label">הודעה (אופציונלי)</label>
@@ -1379,7 +1379,7 @@
       
       <div class="index-cta-section__privacy privacy-consent">
         <label class="privacy-consent-label index-cta-section__privacy-label">
-          <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox" required>
+          <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox" required="">
           <span>קראתי ואני מסכים/ה ל<a href="/terms" target="_blank" class="index-cta-section__privacy-link">תנאי השימוש</a> ול<a href="/privacy" target="_blank" class="index-cta-section__privacy-link">מדיניות הפרטיות</a></span>
         </label>
       </div>
@@ -1387,7 +1387,7 @@
       <div class="index-cta-section__cta-row cta-row">
         <button type="submit" class="index-cta-section__btn btn btn-primary" data-magnet="0.2">
           שלחו הודעה
-          <svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
         </button>
       </div>
       
@@ -1425,25 +1425,23 @@
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:maor.sharon@gmail.com">maor.sharon@gmail.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:+972543951940">+972543951940</a></span>
           </li>
           <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">[business_address]</span></a></li>
+            <span class="contact-text">יעל רום 5\22, פתח תקווה, 4906215, Israel</span></a></li>
         </ul>
       </div>
 
       <!-- Business Hours -->
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
 
       <!-- Social Media -->
@@ -1474,7 +1472,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/+972543951940" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   
